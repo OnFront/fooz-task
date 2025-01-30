@@ -1,0 +1,19 @@
+
+.single__header,
+.single__content,
+.single__article {
+    display: flex;
+    flex-direction: column;
+}
+
+.single__article {
+    gap: 1.5rem;
+}
+
+.single__header {
+    gap: 2rem;
+}
+
+.single__content {
+    gap: 0.25rem;
+}
