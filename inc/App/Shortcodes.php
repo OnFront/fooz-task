@@ -1,4 +1,5 @@
 <?php
+namespace App\Shortcodes;
 
 class Shortcodes {
     public function __construct() {
@@ -14,7 +15,7 @@ class Shortcodes {
             'order'          => 'DESC',
         );
 
-        $query = new WP_Query($args);
+        $query = new \WP_Query($args);
         $title = '';
 
         if ($query->have_posts()) {
@@ -52,7 +53,7 @@ class Shortcodes {
             ),
         );
     
-        $query = new WP_Query($args);
+        $query = new \WP_Query($args);
         $output = '<ul>';
     
         if ($query->have_posts()) {

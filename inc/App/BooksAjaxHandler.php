@@ -1,4 +1,5 @@
 <?php
+namespace App\BooksAjaxHandler;
 
 class BooksAjaxHandler {
 
@@ -13,7 +14,7 @@ class BooksAjaxHandler {
             'posts_per_page' => 20,
         ];
 
-        $query = new WP_Query($args);
+        $query = new \WP_Query($args);
         $books = [];
 
         if ($query->have_posts()) {

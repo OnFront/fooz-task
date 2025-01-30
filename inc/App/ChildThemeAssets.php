@@ -1,5 +1,5 @@
 <?php
-namespace Inc\App;
+namespace App\ChildThemeAssets;
 
 class ChildThemeAssets {
     
