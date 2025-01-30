@@ -12,7 +12,7 @@ add_action('after_setup_theme', 'twentytwentyone_child_theme_setup');
 
 if (is_dir($path)) {
     $directoryIterator = new RecursiveDirectoryIterator($path, RecursiveDirectoryIterator::SKIP_DOTS);
-        $iterator = new RecursiveIteratorIterator($directoryIterator);
+    $iterator = new RecursiveIteratorIterator($directoryIterator);
 
     foreach ($iterator as $fileinfo) {
 

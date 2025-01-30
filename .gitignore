@@ -1,0 +1,18 @@
+# IDE
+.vscode
+.vscode/*
+
+# Files
+.DS_Store
+**/.DS_Store
+*.log
+*.map
+*[Tt]humbs.db
+*.Trashes
+package-lock.json
+*.lock
+!.gitkeep
+
+# Directories
+build/
+node_modules/
